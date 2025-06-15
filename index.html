@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Becoming-HighValueMan</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0d0d0d; --card:#1a1a1a; --gold:#d4af37; --light:#f5f5f5;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif;color:var(--light);}
+    body{background:var(--bg);line-height:1.6;}
+    header{padding:3rem 6vw;border-bottom:1px solid var(--card);}
+    h1{font-size:2.8rem;color:var(--gold);margin-bottom:.2em;}
+    h2{font-size:2rem;color:var(--gold);margin:2.5rem 0 1rem;}
+    p.lead{max-width:700px;margin-top:.8rem;font-weight:300;}
+    nav{margin-top:1.5rem}
+    nav a{color:var(--light);text-decoration:none;margin-right:1.5rem;font-size:.95rem;transition:.3s}
+    nav a:hover{color:var(--gold)}
+    section{padding:2rem 6vw}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.2rem;margin-top:1rem}
+    .card{background:var(--card);padding:1.2rem 1rem;border:1px solid #222;border-radius:8px;transition:.3s}
+    .card:hover{transform:translateY(-4px);border-color:var(--gold)}
+    .card h3{font-size:1.1rem;color:var(--gold);margin-bottom:.4rem}
+    .roadmap li{margin:.5rem 0;padding-left:.3rem;list-style:square;font-size:.95rem}
+    footer{padding:2rem 6vw;border-top:1px solid var(--card);font-size:.85rem;text-align:center;color:#999}
+    img.progress{max-width:640px;width:100%;border:1px solid #333;border-radius:6px;margin-top:1rem}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Becoming-HighValueMan</h1>
+  <p class="lead">
+    我如何从愤世嫉俗蜕变为 <strong>高价值男人</strong> 的系统工程 —— 全程公开，版本可追溯，持续升级。
+  </p>
+
+  <nav>
+    <a href="#modules">系统模块</a>
+    <a href="#roadmap">蜕变路线</a>
+    <a href="#progress">成长曲线</a>
+    <a href="https://github.com/ybw2002/Becoming-HighValueMan" target="_blank">GitHub 源码 ↗</a>
+  </nav>
+</header>
+
+<!-- 模块导航 -->
+<section id="modules">
+  <h2>系统模块</h2>
+  <div class="grid">
+    <a class="card" href="discipline/">
+      <h3>/discipline/</h3>
+      <p>自律打卡 & 习惯训练日志</p>
+    </a>
+    <a class="card" href="books/">
+      <h3>/books/</h3>
+      <p>读书笔记 · 知识内化</p>
+    </a>
+    <a class="card" href="finance/">
+      <h3>/finance/</h3>
+      <p>投资 & 财富系统搭建记录</p>
+    </a>
+    <a class="card" href="attraction/">
+      <h3>/attraction/</h3>
+      <p>吸引力 & 社交力训练日志</p>
+    </a>
+    <a class="card" href="english/">
+      <h3>/english/</h3>
+      <p>托福 / GRE 语言资本路径</p>
+    </a>
+  </div>
+</section>
+
+<!-- 路线图 -->
+<section id="roadmap">
+  <h2>蜕变路线</h2>
+  <ul class="roadmap">
+    <li>✅ 搭建公开项目 & 系统模块</li>
+    <li>✅ 每日 discipline 打卡开始</li>
+    <li>🔄 每周生成成长曲线图 & 周报</li>
+    <li>🔜 30 天后发布《阶段性复盘报告》</li>
+    <li>🎯 180 天内完成资本/语言/吸引三线进化</li>
+  </ul>
+</section>
+
+<!-- 成长曲线 -->
+<section id="progress">
+  <h2>成长曲线（Auto-Update）</h2>
+  <p>图表每次 push 后由 GitHub Action 自动刷新。</p>
+  <!-- 占位图；脚本生成后会覆盖同名文件 -->
+  <img class="progress" src="progress.png" alt="Growth Progress Placeholder" />
+</section>
+
+<footer>
+  Powered by GitHub Pages · Designed & Engineered by <strong>ybw2002</strong>
+</footer>
+
+</body>
+</html>
